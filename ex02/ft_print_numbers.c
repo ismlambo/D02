@@ -14,7 +14,8 @@
 void ft_putchar(char c);
 
 
-void ft_print_numbers(void){
+void ft_print_numbers(void)
+{
     
     int n;
     n = '0';
@@ -25,11 +26,8 @@ void ft_print_numbers(void){
     }
 }
 
-void ft_putchar(char c){
+void ft_putchar(char c)
+{
     write(1, &c , 1);
 }
 
-int main(void){
-    ft_print_numbers();
-    return(0);
-}
