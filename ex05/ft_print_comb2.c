@@ -17,7 +17,8 @@ void ft_putchar(char c){
     write(1, &c, 1);
 }
 
-void ft_print_nbr(char a, char b){
+void ft_print_nbr(char a, char b)
+{
     ft_putchar(a);
     ft_putchar(b);
 
@@ -25,7 +26,8 @@ void ft_print_nbr(char a, char b){
     ft_putchar(' ');
 }
 
-void ft_print_comb2(void){
+void ft_print_comb2(void)
+{
     char a;
     char b;
 
@@ -46,7 +48,3 @@ void ft_print_comb2(void){
 
 }
 
-int main(void){
-    ft_print_comb2();
-    return(0);
-}
