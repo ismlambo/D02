@@ -19,23 +19,15 @@ void ft_putchar(char c){
 void ft_is_negative(int n)
 {
     char sign;
-    
-    while ((n = getchar()) != EOF)
+    if (n > '0')
     {
-        if (n > '0')
-        {
-            ft_putchar(sign);
-            sign = 'P';
-        }
-        else
-        {
-            ft_putchar(sign);
-            sign = 'N';
-        }
+        ft_putchar(sign);
+        sign = 'P';
+    }
+    else
+    {
+        ft_putchar(sign);
+        sign = 'N';
     }
 }
 
-int main(void){
-    ft_is_negative('\n');
-    return(0);
-}
