@@ -34,10 +34,3 @@ void ft_putnbr(int nbr)
         ft_putnbr(nbr % 10);
     }
 }
-
-int main(void)
-{
-    ft_putnbr(47);
-    ft_putchar('\n');
-    return(0);
-}
