@@ -18,16 +18,13 @@ void ft_putchar(char c){
 
 void ft_is_negative(int n)
 {
-    char sign;
-    if (n > '0')
+    if (n >= '0')
     {
-        ft_putchar(sign);
-        sign = 'P';
+        ft_putchar('P');
     }
     else
     {
-        ft_putchar(sign);
-        sign = 'N';
+        ft_putchar('N');
     }
 }
 
